@@ -1,0 +1,26 @@
+{
+  "name": "boone-node-boilerplate",
+  "version": "0.0.1",
+  "description": "A boilerplate for rapid application development in Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "boilerplate",
+    "rad",
+    "development"
+  ],
+  "author": "Wes King",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "express": "~4.13.3",
+    "sequelize": "~3.11.0",
+    "bluebird": "~2.10.2",
+    "mysql": "~2.9.0",
+    "redis": "~2.1.0",
+    "body-parser": "~1.14.1"
+  }
+}

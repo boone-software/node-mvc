@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <script src="js/app/index.js"></script>
+    <script src="js/routes/index.js"></script>
+    <script src="js/services/AuthService.js"></script>
+    <script src="js/controllers/RegisterCtrl.js"></script>
+    <script src="js/controllers/IndexCtrl.js"></script>
+    <script src="js/controllers/LoginCtrl.js"></script>
+</head>
+<body>
+    <a ui-sref="index">Index</a>
+    <a ui-sref="login">Login</a>
+    <a ui-sref="register">Register</a>
+    <div ui-view></div>
+</body>
+</html>
