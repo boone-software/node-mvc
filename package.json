@@ -17,7 +17,7 @@
   "license": "BSD-2-Clause",
   "dependencies": {
     "express": "~4.13.3",
-    "sequelize": "~3.11.0",
+    "sequelize": "~6.3.5",
     "bluebird": "~2.10.2",
     "mysql": "~2.9.0",
     "redis": "~2.1.0",
